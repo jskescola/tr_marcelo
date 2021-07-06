@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Login - Pizzaria</title>
+
+    <!--Bootstrap e Jquery API (biblioteca)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--Linkando a API do google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
+    <!--linkado o arquivo css-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!--Aqui declaramos um header com navigation bar e logo em bootstrap-->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <!--Logo-->
+      <div class="navbar-brand">
+        <a href="index.html">
+          <img src="img/pizza-logo.png" alt="logo">
+        </a>
+      </div>
+            
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link text-uppercase" href="pedido.html" target="_blank"><h4 class="text-header">Faça seu pedido</h4></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="login.html" target="_blank"><h4>login</h4></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--Formulario de login-->
+    <div class="container">
+        <h1 class="login-title">Login</h1>
+        <form>
+            <h4>Dados pessoais</h4>
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" class="form-control" id="name" placeholder="Nome" name="name">
+            </div>
+            <div class="form-group">
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" class="form-control" id="sobrenome" placeholder="Sobrenome" name="sobrenome">
+            </div>
+        
+            <h4>Endereço</h4>
+            <div class="form-group">
+                <label for="rua">Rua:</label>
+                <input type="text" class="form-control" id="rua" placeholder="Rua" name="rua">
+            </div>
+
+            <div class="form-group">
+                <label for="bairro">Bairro:</label>
+                <input type="text" class="form-control" id="bairro" placeholder="Bairro" name="bairro">
+            </div>
+
+            <div class="form-group">
+                <label for="sel1">Selecione:</label>
+                <select class="form-control" id="sel1" name="sellist1">
+                  <option>Casa</option>
+                  <option>Apartamento</option>
+                  <option>Condominio</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="numero">Número:</label>
+                <input type="text" class="form-control" id="numero" placeholder="Número" name="numero">
+            </div>
+
+            <div class="form-group">
+                <label for="cep">Cep:</label>
+                <input type="text" class="form-control" id="cep" placeholder="Cep" name="cep">
+            </div>
+
+            <div class="form-group">
+                <label for="obs">Observação:</label>
+                <textarea class="form-control" rows="5" id="obs"></textarea>
+            </div>
+        
+            <h4>Comfirmação</h4>
+            <div class="form-inline">
+                <label for="tel">Telefone </label>
+                <input type="tel" class="form-control inline-input" placeholder="XX XXXXX XXXX" id="tel">
+                <button type="button" class="btn btn-danger inline-btn">Enviar codigo de verificação</button>
+            </div>
+            <div class="form-inline">
+                <label for="code">Codigo de verificação</label>
+                <input type="text" class="form-control inline-input" placeholder="Codigo" id="code">
+                <button type="button" class="btn btn-danger inline-btn">Verificar Codigo</button>
+            </div> 
+            
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Lembre de mim</label>
+            </div>
+            <a href="pedido.html" button type="submit" class="btn btn-danger">Logar</a></button>
+        </form>
+    </div>
+
+    <footer>
+      <img src="img/pizza-logo.png" class="logo-footer">
+      <div class="sociais">
+        <h5>Siga nossas redes sociais</h5>
+        <a class="icons" href="https://www.facebook.com" target="_blank"><img src="img/facebook-logo.png" height="50px" ></a>
+        <a class="icons" href="https://www.instagram.com" target="_blank"><img src="img/instagram-logo.png" height="50px"></a>
+        <a class="icons" href="https://www.whatsapp.com/" target="_blank"><img src="img/whatsapp-logo-1.png" height="50px"></a>
+      </div>
+      <div class="infos">
+        <h5>Telefones</h5>
+        <p>(45) 99999-9999 ou (45) 94444-4444</p>
+        <h5>Enderço</h5>
+        <p>Rua Guarani, 1333 | Centro, Toledo - PR | 85902-010</p>
+      </div>
+      <p class="copy">&copy; Copyright Pizza - 2021</p>
+    </footer>
+  </body>
+</html>

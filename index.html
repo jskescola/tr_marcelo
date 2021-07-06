@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Home - Pizzaria</title>
+
+    <!--Bootstrap e Jquery API (biblioteca)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--Linkando a API do google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
+    <!--linkado o arquivo css-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!--Aqui declaramos um header com navigation bar e logo em bootstrap-->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <!--Logo-->
+      <div class="navbar-brand">
+        <a href="index.html">
+          <img src="img/pizza-logo.png" alt="logo">
+        </a>
+      </div>
+            
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="pedido.html" target="_blank"><h4 class="text-header">Faça seu pedido</h4></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="login.html" target="_blank"><h4>login</h4></a>
+        </li>
+      </ul>
+    </nav>
+    <center>
+      <main>
+        <h1 class="sobre-titulo">Sobre a Pizzaria</h1>
+        <p class="sobre-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in rhoncus massa, id egestas est. Pellentesque vel metus at ex volutpat iaculis. Morbi euismod volutpat aliquet. Phasellus sit amet porttitor magna. Donec tempus porttitor diam ac tincidunt. Integer tempus nisi tellus, sit amet vestibulum eros varius eget. Etiam laoreet tellus diam, varius condimentum nisi imperdiet eget. Proin velit lacus, varius volutpat tempus at, pellentesque eu purus. Donec id leo molestie, dictum justo in, tincidunt orci. Fusce purus libero, malesuada ac urna a, sagittis scelerisque lectus. Ut neque lectus, venenatis at eros vehicula, lacinia tincidunt mi.
+        <br><br>
+        n gravida vitae felis quis porttitor. Vivamus tincidunt bibendum erat, a posuere ante vestibulum eu. Aliquam eu nunc vitae nibh finibus maximus et id magna. Nam vel purus a felis maximus consectetur. Vivamus sed pretium libero. Donec mollis diam ut bibendum sollicitudin. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam quis tellus vel nisl rhoncus dictum. Sed imperdiet, nibh nec commodo fermentum, tortor dui tempor orci, et pellentesque arcu metus sed dolor. Maecenas leo sapien, ultricies ut ultrices eget, molestie placerat orci. Proin eleifend vitae ligula eu tempor. Sed efficitur mattis consectetur. In tincidunt quis nibh nec lobortis.
+        <br><br>
+        Fusce ullamcorper egestas libero, aliquet auctor nulla mattis laoreet. Phasellus gravida magna et sagittis semper. Fusce cursus, urna ac consectetur aliquam, justo risus rutrum urna, ut gravida ex turpis non orci. Phasellus blandit odio risus, a sagittis ex aliquet ac. Nullam odio ligula, consequat eget justo ut, condimentum scelerisque felis. Nullam condimentum eros id neque accumsan, sed laoreet tellus vulputate. Duis a nisi mauris.</p>
+      </main>
+    </center>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!--Indicadores-->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul> 
+          
+      <!--Imagens slideshow-->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/pizza1.png" alt="pizza-calabresa" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="img/pizza2.png" alt="pizza-peperoni" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="img/pizza3.png" alt="pizza-doce" width="1100" height="500">
+      </div>
+    </div>
+          
+          <!--Controles-->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+    </div>
+
+    <!--Rodapé-->
+    <footer>
+      <!---->
+      <img src="img/pizza-logo.png" class="logo-footer">
+      <div class="sociais">
+        <h5>Siga nossas redes sociais</h5>
+        <!--logo redes sociais-->
+        <a class="icons" href="https://www.facebook.com" target="_blank"><img src="img/facebook-logo.png" height="50px" ></a>
+        <a class="icons" href="https://www.instagram.com" target="_blank"><img src="img/instagram-logo.png" height="50px"></a>
+        <a class="icons" href="https://www.whatsapp.com/" target="_blank"><img src="img/whatsapp-logo-1.png" height="50px"></a>
+      </div>
+      <div class="infos">
+        <h5>Telefones</h5>
+        <p>(45) 99999-9999 ou (45) 94444-4444</p>
+        <h5>Enderço</h5>
+        <p>Rua Guarani, 1333 | Centro, Toledo - PR | 85902-010</p>
+      </div>
+      <p class="copy">&copy; Copyright Pizza - 2021</p>
+    </footer>
+  </body>
+</html>

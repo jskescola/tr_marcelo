@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Pedido - Pizzaria</title>
+
+    <!--Bootstrap e Jquery API (biblioteca)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--Linkando a API do google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
+    <!--linkado o arquivo css-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!--Aqui declaramos um header com navigation bar e logo em bootstrap-->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <!--Logo-->
+      <div class="navbar-brand">
+        <a href="index.html">
+          <img src="img/pizza-logo.png" alt="logo">
+        </a>
+      </div>
+            
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="pedido.html" target="_blank"><h4 class="text-header">Faça seu pedido</h4></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="login.html" target="_blank"><h4>login</h4></a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Monte sua Pizza!!</h1>
+      <!--input de lista de seleção-->
+      <div class="form-group">
+        <label for="sel1">Selecione o tamanho da sua pizza!:</label>
+        <select class="form-control" id="sel1">
+          <option>Média - 12 fatias - R$ 35,00</option>
+          <option>Grande - 18 fatias - R$ 45,00</option>
+          <option>Gigante - 24 fatias - R$ 55,00</option>
+        </select>
+      </div>
+
+      <!--input de lista de seleção-->
+      <div class="form-group">
+        <label for="sel1">Selecione o primeiro sabor:</label>
+        <select class="form-control" id="sel1">
+          <option>Atum</option>
+          <option>Alho e oleo</option>
+          <option>Bacon</option>
+          <option>Calabresa</option>
+          <option>Catufilé</option>
+          <option>Frango Catupiry</option>
+          <option>Calabresa Acebolada</option>
+          <option>Cinco queijos</option>
+          <option>Filé ao alho</option>
+          <option>Frango Cheddar</option>
+          <option>Palmito</option>
+          <option>Peperoni</option>
+          <option>Strogonoff</option>
+        </select>
+      </div>
+      <!--input de lista de seleção-->
+      <div class="form-group">
+        <label for="sel1">Selecione o segundo sabor:</label>
+        <select class="form-control" id="sel1">
+          <option>Atum</option>
+          <option>Alho e oleo</option>
+          <option>Bacon</option>
+          <option>Calabresa</option>
+          <option>Catufilé</option>
+          <option>Frango Catupiry</option>
+          <option>Calabresa Acebolada</option>
+          <option>Cinco queijos</option>
+          <option>Filé ao alho</option>
+          <option>Frango Cheddar</option>
+          <option>Palmito</option>
+          <option>Peperoni</option>
+          <option>Strogonoff</option>
+        </select>
+      </div>
+      <!--input de lista de seleção-->
+      <div class="form-group">
+        <label for="sel1">Selecione o terceiro sabor:</label>
+        <select class="form-control" id="sel1">
+          <option>Atum</option>
+          <option>Alho e oleo</option>
+          <option>Bacon</option>
+          <option>Calabresa</option>
+          <option>Catufilé</option>
+          <option>Frango Catupiry</option>
+          <option>Calabresa Acebolada</option>
+          <option>Cinco queijos</option>
+          <option>Filé ao alho</option>
+          <option>Frango Cheddar</option>
+          <option>Palmito</option>
+          <option>Peperoni</option>
+          <option>Strogonoff</option>
+        </select>
+      </div>
+      <!--input de lista de seleção-->
+      <div class="form-group">
+        <label for="sel1">Borda:</label>
+        <select class="form-control" id="sel1">
+          <option>Sem borda</option>
+          <option>Borda cheddar - R$ 5,00</option>
+          <option>Borda catupiry - R$ 5,00</option>
+          <option>Borda catupiry com chedar R$ 5,00</option>
+        </select>
+      </div>
+
+      <!--input de radio-->
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optradio">Retirar na pizzaria
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optradio">Delivery - R$ 6,00
+        </label>
+      </div>
+      <button type="submit" class="btn btn-danger">Fazer pedido</button>
+    </main>
+    
+
+    <footer>
+      <img src="img/pizza-logo.png" class="logo-footer">
+      <div class="sociais">
+        <h5>Siga nossas redes sociais</h5>
+        <a class="icons" href="https://www.facebook.com" target="_blank"><img src="img/facebook-logo.png" height="50px" ></a>
+        <a class="icons" href="https://www.instagram.com" target="_blank"><img src="img/instagram-logo.png" height="50px"></a>
+        <a class="icons" href="https://www.whatsapp.com/" target="_blank"><img src="img/whatsapp-logo-1.png" height="50px"></a>
+      </div>
+      <div class="infos">
+        <h5>Telefones</h5>
+        <p>(45) 99999-9999 ou (45) 94444-4444</p>
+        <h5>Enderço</h5>
+        <p>Rua Guarani, 1333 | Centro, Toledo - PR | 85902-010</p>
+      </div>
+      <p class="copy">&copy; Copyright Pizza - 2021</p>
+    </footer>
+  </body>
+</html>

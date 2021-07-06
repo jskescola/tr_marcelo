@@ -1,0 +1,139 @@
+/*HEADER*/
+.navbar{
+    /*Setando a cor de fundo do header*/
+    background-color: #F92B00;
+
+    /*Setando o display para flex box*/
+    display: flex;
+
+    /*Colocando o container no centro*/
+    justify-content: center;
+
+    /*setando espaçamento entre a logo e a lista*/
+    justify-content: space-between;
+}
+
+.navbar-brand{
+    /*margem para a esquerda de 50px*/
+    margin-left: 70px;
+}
+
+.navbar-nav{
+    /*margem para a direita de 50px*/
+    margin-right: 70px;
+}
+
+.nav-item{
+    /*Dando espaçamento interno entre os itens da lista*/
+    padding: 0 10px 0 10px;
+}
+/*FIM HEADER*/
+
+.sobre-titulo{
+     /*Colocando a fonte do google fonts*/
+    font-family: 'Noto Serif', serif;
+
+     /*setando o peso da fonte (espeçura)*/
+    font-weight: 700;
+
+     /*setando um espaçamento interno*/
+    padding-top: 60px;
+
+}
+
+.sobre-text{
+     /*setando a fonte do google fonts*/
+    font-family: 'Noto Serif', serif;
+
+     /*espaçamento interno*/
+    padding: 9px 0;
+
+     /*tamanho da fonte*/
+    font-size:  20px;
+
+     /*espaçamento externo ou margem*/
+    margin: 0 20px  0  20px;
+
+     /*espaçamento interno inferior*/
+    padding-bottom: 60px;
+}
+
+/* Deixa a imagem do carousel resposiva*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/*PAGINA DE LOGIN*/
+
+.container{
+    margin: 70px;
+}
+
+.login-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.btn{
+    background-color: #F92B00;
+}
+
+.inline-input{
+    margin-left: 20px;
+}
+
+.inline-btn{
+    margin-left: 20px;
+}
+
+.form-inline{
+    padding: 10px;
+}
+
+
+/*FIM PAGINA DE LOGIN*/
+
+/*Começo pagian pedido*/
+main{
+    margin: 20px;
+}
+
+main h1{
+    text-align: center;
+}
+/*fim pagina pedidos*/
+
+/*RODAPÉ*/
+footer{
+    background-color: #F92B00;
+    padding: 40px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.logo-footer{
+    text-align: center;
+    display: inline-block;
+}
+
+.sociais{
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.icons{
+    padding: 20px 15px 15px 15px;
+}
+
+.infos{
+    text-align: center;
+}
+
+.copy{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+    text-align: center;
+}
+/*FIM DO RODAPÉ*/
